@@ -1,0 +1,29 @@
+//imports
+@import "variable";
+//@import "~@angular/cdk/overlay-prebuilt.css";
+
+// Global Styles
+html * {
+  font-family: $base-font-family;
+  }
+html {
+  height: 100%;
+  font-size: 63%;
+  }
+
+/*********************************************/
+/************* GLOBAL FONT STYLES ************/
+/*********************************************/
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2rem;
+  background-color: $grey-2;
+  background-position: center center;
+  background-size: cover;
+  color: $grey-2 !important;
+  font-size: 1.3rem !important;
+  }

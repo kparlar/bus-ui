@@ -1,0 +1,72 @@
+@import "../../../assets/global-styles/style.scss";
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+div {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      vertical-align: baseline;
+  }
+
+.sub-menu {
+    display: flex;
+    align-items: stretch;
+    height: 80px;
+}
+
+.sub-menu-box {
+    background-color: #1D428A;
+}
+
+.sub-menu-left {
+    background-color: #ED2933;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    flex: 0 0 250px;
+    padding: 10px;
+}
+.sub-menu-left a:first-child {
+    border-right: 1px solid white;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.sub-menu-left img {
+    height: 60px;
+}
+.sub-menu-middle {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.sub-menu-middle a {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+.sub-menu-right {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    padding-right: 30px;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    transition: 0.33s;
+}
+.social-links a {
+    margin-right: 12px;
+}
+
