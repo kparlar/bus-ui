@@ -1,0 +1,40 @@
+<div class="breadcrumb-container" style="background-image: url(/icons/breadcrumb-bg.png)">
+  <div class="iett-container--middle">
+    <form action="/RouteSearch" class="line-search">
+      <input id="inSearch" type="text" name="search" placeholder="HAT / DURAK ARAMA" autocomplete="off">
+      <div class="search-autocomplete-before">
+        <p>76 veya Yıldız Durağı gibi…</p>
+      </div>
+      <!-- Sonuclari yazdirirken block class'ını eklemen yeterli gorunmesi icin.-->
+      <div class="search-autocomplete-after" id="dvList">
+        <div class="line-list" id="listSearch">
+        </div>
+      </div>
+      <button>
+        <img src="/icons/search-black.svg" alt="">
+      </button>
+    </form>
+  </div>
+</div>
+<div class="iett-container-middler">
+  <div class="line-list" id="rsList">
+    <div class="line-item">
+      <a href="/RouteDetail?hkod=1&amp;routename=K%C4%B0RAZLITEPE%20-%20ACIBADEM%20-%20KADIK%C3%96Y">
+        <span>1</span>
+        <p>KİRAZLITEPE - ACIBADEM - KADIKÖY</p>
+        <span><img src="/icons/line-arrow.svg" alt=""></span>
+      </a>
+    </div>
+
+  </div>
+  koray
+  <div class="line-list" id="rsList2">
+    koray2
+    <div *ngFor="let line of lines$ | async">
+      {{ line.SHATKODU }}
+    </div>
+  </div>
+</div>
+
+
+

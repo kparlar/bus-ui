@@ -1,0 +1,13 @@
+{
+  "/bus-service": {
+    "target": {
+      "host": "localhost",
+      "protocol": "http:",
+      "port": "8180"
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}
+
