@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyCounterComponent } from './my-counter.component';
+import { UnauthorizedComponent } from './unauthorized.component';
 
-describe('MyCounterComponent', () => {
-  let component: MyCounterComponent;
-  let fixture: ComponentFixture<MyCounterComponent>;
+describe('UnauthorizedComponent', () => {
+  let component: UnauthorizedComponent;
+  let fixture: ComponentFixture<UnauthorizedComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MyCounterComponent]
+      imports: [UnauthorizedComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MyCounterComponent);
+    fixture = TestBed.createComponent(UnauthorizedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -27,8 +27,12 @@
     </div>
 
   </div>
-  <div class="line-list" id="rsList">
-    <app-my-counter></app-my-counter>
+  koray
+  <div class="line-list" id="rsList2">
+    koray2
+    <div *ngFor="let line of lines$ | async">
+      {{ line.SHATKODU }}
+    </div>
   </div>
 </div>
 
